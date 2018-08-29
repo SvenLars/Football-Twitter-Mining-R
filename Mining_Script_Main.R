@@ -28,7 +28,7 @@ connectTweetApi <- function(){
 
 # Tweets holen
 
-getTweets <- function(hashtgs, nTweets = 25, lang = "de", retweets = FALSE){
+getTweets <- function(hashtgs, nTweets = 25, lang = "de", retweets = F){
   hashtags <- paste(hashtgs,collapse = " OR ")
   connectTweetApi()
   statusupdates = search_tweets(hashtags,nTweets,include_rts = retweets,lang = lang)
