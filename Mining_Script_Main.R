@@ -74,11 +74,13 @@ extractText <- function(tweetdf, cleanText = TRUE, exportCSV = FALSE){
     tweetsTxt <- cleanTweets(tweetsTxt)
   }
   if(exportCSV){
-    write.csv(tweetsTxt,file = "Tweets")
+    write.csv2(tweetsTxt,file = "Tweets.csv", row.names = F)
   }
   return(tweetsTxt)
 }
 
 # Funktionen nutzen
 
-
+connectTweetApi()
+tweets <- getTweets(hashtags)
+text <- extractText(tweets, exportCSV = T)
