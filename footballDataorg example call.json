@@ -1,0 +1,92 @@
+{
+    "count": 306,
+    "filters": {},
+    "competition": {
+        "id": 2002,
+        "area": {
+            "id": 2088,
+            "name": "Germany"
+        },
+        "name": "Bundesliga",
+        "code": "BL1",
+        "plan": "TIER_ONE",
+        "lastUpdated": "2019-05-27T22:30:42Z"
+    },
+    "matches": [
+        {
+            "id": 200969,
+            "season": {
+                "id": 3,
+                "startDate": "2017-08-18",
+                "endDate": "2018-05-21",
+                "currentMatchday": 34
+            },
+            "utcDate": "2017-08-18T18:30:00Z",
+            "status": "FINISHED",
+            "matchday": 1,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2018-06-22T09:02:49Z",
+            "score": {
+                "winner": "HOME_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 3,
+                    "awayTeam": 1
+                },
+                "halfTime": {
+                    "homeTeam": 2,
+                    "awayTeam": 0
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 5,
+                "name": "FC Bayern München"
+            },
+            "awayTeam": {
+                "id": 3,
+                "name": "Bayer 04 Leverkusen"
+            },
+            "referees": [
+                {
+                    "id": 43943,
+                    "name": "Tobias Stieler",
+                    "nationality": null
+                },
+                {
+                    "id": 56230,
+                    "name": "Matthias Jöllenbeck",
+                    "nationality": null
+                },
+                {
+                    "id": 15747,
+                    "name": "Christian Gittelmann",
+                    "nationality": null
+                },
+                {
+                    "id": 15825,
+                    "name": "Martin Petersen",
+                    "nationality": null
+                }
+            ]
+        },{
+		
+			naechstes Match	
+		
+		}
+		
+		
+		
+	###Api Link: http://api.football-data.org/v2/competitions/2002/matches/?season=2017, wobei ?season = YYYY nur fuer former seasons benutzt wird
+	### APi Link: http://api.football-data.org/v2/competitions/2002/matches/ liefert für die aktuellste Bundesliga (ID = 2002) alle Matches
+	http://api.football-data.org/v2/matches?competitions=2002&dateFrom=2018-11-24&dateTo=2018-11-24 # liefert von der Budesliga vom Matchtag 24.08.2018 alle Matches
+	
+		
